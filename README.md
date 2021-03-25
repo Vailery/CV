@@ -1,4 +1,4 @@
-# Liabik Valeria ([CV](https://vailery.github.io/CV/index.html))
+# Liabik Valeria ([CV](https://vailery.github.io/CV/CV/index.html))
 ![photo](https://sun9-57.userapi.com/impf/77JMJUKtj0N51HqGnaYn_jr0bYigCHIrypDnuA/HQFgCurmPec.jpg?size=72x72&quality=96&proxy=1&sign=92418e0d39226dfeefb5bba119a344de&type=album)
 
 ## Education Background
