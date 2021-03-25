@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Varela Round';
+    src: url(../fonts/VarelaRound-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Light.ttf)
+}
+
+*,
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em
+}
+
+a {
+    color: #ffe5d1;
+    text-decoration: none
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: " ";
+    display: table
+}
+
+.clearfix::after {
+    clear: both
+}
+
+.cv-wrapper {
+    position: relative;
+    text-align: center;
+    height: 100%
+}
+
+.container {
+    min-height: 600px
+}
+
+.profile {
+    background: #3d3e42;
+    width: 40%;
+    float: left;
+    color: #9099a0;
+    min-height: 100%;
+    min-height: 100vh
+}
+
+.profile .name-wrapper {
+    float: left;
+    width: 60%
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    color: #ffe5d1;
+    text-transform: uppercase;
+    line-height: 1em
+}
+
+.profile li {
+    margin-bottom: 10px
+}
+
+.profile .picture-cv-wrapper {
+    width: 40%;
+    display: block;
+    float: left
+}
+
+.profile .picture-cv {
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 0;
+    display: table;
+    position: relative;
+    vertical-align: middle
+}
+
+.profile .picture-cv span {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+    text-align: center
+}
+
+.profile .picture-cv img {
+    border-radius: 50%;
+    width: 130px;
+    border: 2px solid #ffe5d1;
+    box-shadow: 2px 3px 8px -2px
+}
+
+.profile .contact-info {
+    margin-top: 41px;
+    font-weight: 300
+}
+
+.profile h3.experience-title {
+    color: #ffe5d1;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400
+}
+
+.profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    width: 30%;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.profile .list-content {
+    float: left;
+    width: 70%;
+    text-align: left;
+    font-weight: 300;
+    color: #fff;
+    list-style-type: none;
+}
+
+.profile .contact-presentation {
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 72px;
+    margin-bottom: 100px
+}
+
+.experience {
+    background: #fff;
+    width: 60%;
+    float: left;
+    position: relative;
+    color: #9099a0;
+    font-weight: 300;
+    min-height: 100%;
+    min-height: 100vh
+}
+
+.experience h3.experience-title {
+    background: #ffe5d1;
+    color: #3d3e42;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400
+}
+
+.experience .name-wrapper {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+    color: #3d3e42
+}
+
+.experience .edu-wrapper {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+    color: #3d3e42
+}
+
+.experience .experience-title {
+    color: #3d3e42;
+    margin-bottom: 15px
+}
+
+.section-padding {
+    padding: 60px 60px 40px 40px
+}
+
+.section-wrapper {
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: #3d3e42;
+    font-weight: 300;
+    margin-bottom: 20px
+}
+
+.section-wrapper h3.section-title {
+    background: #ffe5d1;
+    color: #3d3e42;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400
+}
+
+.section-wrapper .skill-percentage {
+    margin-bottom: 10px;
+    position: relative;
+    color: #3d3e42
+}
+
+@media (max-width:1500px) {
+    .profile .picture-cv img {
+        width: 80px
+    }
+    .profile .picture-cv {
+        width: 150px;
+        height: 150px
+    }
+}
+
+@media (max-width:1200px) {
+    .profile h1 {
+        padding-top: 20px
+    }
+    .profile .picture-cv-wrapper {
+        width: 100%
+    }
+    .profile .picture-cv img {
+        width: 120px;
+        height: 120px
+    }
+    .profile .picture-cv {
+        width: 200px;
+        height: 200px
+    }
+    .profile .contact-info {
+        margin-top: 70px
+    }
+    .profile .contact-presentation {
+        margin-top: 70px;
+        margin-bottom: 70px
+    }
+}
+
+@media(max-width:850px) {
+    .profile {
+        width: 100%
+    }
+    .profile .contact-presentation {
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+    .experience {
+        width: 100%
+    }
+    .section-padding {
+        padding: 80px 15% 40px 10%
+    }
+    .experience .name-wrapper {
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .experience .edu-wrapper {
+        width: 100%;
+        margin-bottom: 40px
+    }
+}
+
+@media (max-width: 450px) {
+    .profile h1 {
+        font-size: 1.8em;
+        padding-top: 20px
+    }
+    .profile .picture-cv {
+        width: 180px;
+        height: 180px
+    }
+    .profile .contact-info {
+        margin-top: 50px
+    }
+    .section-padding {
+        padding: 40px 10% 20px 5%
+    }
+    .section-wrapper {
+        width: 100%
+    }
+}
