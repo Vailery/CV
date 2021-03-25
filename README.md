@@ -1,4 +1,4 @@
-# Liabik Valeria  
+# Liabik Valeria ([CV](https://vailery.github.io/CV/index.html))
 ![photo](https://sun9-57.userapi.com/impf/77JMJUKtj0N51HqGnaYn_jr0bYigCHIrypDnuA/HQFgCurmPec.jpg?size=72x72&quality=96&proxy=1&sign=92418e0d39226dfeefb5bba119a344de&type=album)
 
 ## Education Background
@@ -8,8 +8,6 @@ Software engineer, Institute Of Information Technologies BSUIR 2020-2024, distan
 
 ## Contact Details
 
-* Email: **leraliabik8@gmail.com**
-* Telephone: +375 (29) 152-69-20
 * Home: Minsk, Belarus
 
 ## Previous work experience
